@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.18] - 2026-10-24
+
+### Added
+
+- *(core,agent,gui)* add guarded disable-keys controls ([#993](https://github.com/AprilNEA/OpenLogi/pull/993))
+- *(core,agent,gui)* add a press force setting for the MX Master 4 Haptic Sense Panel ([#2021](https://github.com/AprilNEA/OpenLogi/pull/2021))
+- *(hidpp)* add capability-bound force sensing buttons ([#2016](https://github.com/AprilNEA/OpenLogi/pull/2016))
+- *(release)* cut betas from a workflow and tell the tap about them ([#2005](https://github.com/AprilNEA/OpenLogi/pull/2005))
+- *(release)* build a beta at its own version ([#2004](https://github.com/AprilNEA/OpenLogi/pull/2004))
+- *(xtask,ci)* compose update channel files from per-release records ([#2000](https://github.com/AprilNEA/OpenLogi/pull/2000))
+- *(agent)* drive the mock agent from a stdin control console ([#2003](https://github.com/AprilNEA/OpenLogi/pull/2003))
+
+### Fixed
+
+- *(deps)* update Tokio for AsyncFd soundness advisory ([#2019](https://github.com/AprilNEA/OpenLogi/pull/2019))
+- *(device)* bound Bolt receiver identity reads ([#2009](https://github.com/AprilNEA/OpenLogi/pull/2009))
+- *(release)* name Sparkle deltas so Sparkle applies them ([#2002](https://github.com/AprilNEA/OpenLogi/pull/2002))
+
 ## [0.8.17] - 2026-10-22
 
 ### Added
